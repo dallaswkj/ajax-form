@@ -1,0 +1,113 @@
+    /*------------------
+        form
+      ------------------   
+   */
+
+    #main-content{
+        width: 500px;
+        margin: 100px auto;
+        background: #eee;
+        padding: 30px;
+    }
+
+	.title {
+        width:200px;
+		display: inline-block;
+        font-size: 20px;	
+	}
+
+    input{
+        width:200px;
+        padding: 3px 0;
+        display: inline-block;
+    }
+
+    #main-content form p textarea{
+        width:250px;
+        height: 50px;
+        padding: 3px 0;
+        display: inline-block;    
+    }
+
+    .g-recaptcha{
+        margin-left: 208px;
+    }
+
+    label.error{
+        color: red;
+        font-size: 14px;
+        width: initial;
+        display: block;
+        margin-left: 208px;
+    }
+
+    #captcha {
+        color: red;
+        font-size: 14px;
+        display: inline-block;
+        margin-left: 208px;
+    }
+    #sent{
+        font-size: 18px;
+        text-align: center;;
+        color: green;
+    }
+
+    #main-content form input.sub-btn {
+        width: initial;
+        border: 0px;
+    }
+
+    #main-content form input.sub-btn:hover {
+        position: relative;
+        top: 1px;
+    }
+
+
+    /*------------------
+        navigation bar
+      ------------------   
+   */
+
+    header {
+        background: #008ae1;
+        overflow: auto;
+    }
+
+    nav {
+        width: 560px;
+        margin: 10px auto;
+        padding-bottom: 18px;
+        
+    }
+
+    nav ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        float:left;
+    }
+
+    nav ul li {
+        float: left;
+        width: 120px;
+        border-left: 1px dashed white;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+
+    nav ul li:last-child{
+        border-right: 1px dashed white;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        position: relative;
+        top: 1px;
+    }
